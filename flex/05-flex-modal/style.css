@@ -16,6 +16,9 @@ body {
 }
 
 .modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -31,6 +34,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
@@ -46,6 +50,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
 
 button {
