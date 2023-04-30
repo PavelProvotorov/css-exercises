@@ -9,9 +9,30 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.content_left, .content_right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.content_left > * {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 16px;
+}
+
+.content_right > * {
+  display: flex;
+  margin: 0px;
 }
 
 .profile-image {
@@ -27,6 +48,12 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+.notificiations {
+}
+
+.links {
 }
 
 button {
